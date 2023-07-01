@@ -7,6 +7,7 @@ import { Input } from "../components/Input";
 import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
 import { api } from "../../services/api";
+import avatarPlaceHolder from "../../assets/avatar_placeholder.svg"
 
 export function Profile() {
   const { user, updateProfile } = useAuth()
